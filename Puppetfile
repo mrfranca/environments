@@ -6,8 +6,8 @@ forge "https://forgeapi.puppetlabs.com";
 mod 'mrfranca-confsbase'
 mod 'mrfranca-memcached'
 mod 'mrfranca-mysqlserver'
-mod 'mrfranca-webserver',
-mod 'mrfranca-balancer',
+mod 'mrfranca-webserver'
+mod 'mrfranca-balancer'
 
 #mod 'puppet-webserver',
   #:git => 'https://github.com/<user_github>/puppet-webserver.git',
