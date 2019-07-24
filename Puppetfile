@@ -4,8 +4,10 @@
 forge "https://forgeapi.puppetlabs.com";
 
 mod 'mrfranca-confsbase'
-#mod '<user_puppetforge>-memcached'
-#mod '<user_puppetforge>-mysqlserver'
+mod 'mrfranca-memcached'
+mod 'mrfranca-mysqlserver'
+mod 'mrfranca-webserver',
+mod 'mrfranca-balancer',
 
 #mod 'puppet-webserver',
   #:git => 'https://github.com/<user_github>/puppet-webserver.git',
